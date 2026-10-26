@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/readme/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="docs/readme/banner-light.svg">
-    <img src="docs/readme/banner-dark.svg" alt="AudioBook Manager" width="560">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/readme/abm-wordmark-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/readme/abm-wordmark-light.svg">
+    <img src="docs/readme/abm-wordmark-dark.svg" alt="AudioBook Manager" width="560">
   </picture>
 </p>
 
@@ -45,7 +45,8 @@ environment. An `.env.example` shows the names it expects, never the values.
 - Install the local checks once: `bash scripts/install-hooks.sh`. They scan for secrets, keep
   home-network details out of this public repo, check my writing style, and on push run the
   tests and the changelog check. CI runs the same checks on every pull request.
-- Every change to `scripts/` or `src/` needs an entry in [CHANGELOG.md](CHANGELOG.md).
+- Every change to `scripts/` or `src/` needs a changelog entry, normally a `changelog.d/` fragment
+  (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 - No new dependency without a review, and nothing released less than 14 days ago.
 
 ## ⚡ Support the Project
