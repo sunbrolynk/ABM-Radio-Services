@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sunbrolynk/abm-radio-services/actions/workflows/checks.yml"><img src="https://github.com/sunbrolynk/abm-radio-services/actions/workflows/checks.yml/badge.svg?branch=dev" alt="Checks"></a>
+  <a href="https://github.com/sunbrolynk/ABM-Radio-Services/actions/workflows/checks.yml"><img src="https://github.com/sunbrolynk/ABM-Radio-Services/actions/workflows/checks.yml/badge.svg?branch=dev" alt="Checks"></a>
 </p>
 
 <hr>
 
 ## 📻 What's in here
 
-[ABM Radio](https://github.com/sunbrolynk/abm-radio) is a set of free, openly licensed internet
+[ABM Radio](https://github.com/sunbrolynk/ABM-Radio) is a set of free, openly licensed internet
 radio stations: ABM Lofi, Lil' Beats FM and Velvet Static. That repo holds the paperwork: every
 track's licence, its proof and the credits. This one holds the programs that run next to the
 stations:
